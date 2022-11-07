@@ -7,7 +7,7 @@ const app = express()
 const server = require('http').createServer(app)
 const portNo = 3001
 server.listen(portNo, () => {
-  console.log('서버 실행 완료:', 'http://localhost:' + 3000)
+  console.log('서버 실행 완료:', 'http://localhost:' + 3001)
 })
 // public 디렉터리를 공개합니다.  --- (※2)
 app.use('/public', express.static('./public'))
